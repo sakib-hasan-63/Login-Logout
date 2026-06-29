@@ -13,5 +13,5 @@ const logoutBtn = document.getElementById("logoutBtn");
 logoutBtn.addEventListener("click",function(){
     localStorage.removeItem("isLoggedIn");
     alert("Logout Successful");
-    window.location.href="login/login.html"
+    window.location.href="/login/login.html";
 });
