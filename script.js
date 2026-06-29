@@ -24,5 +24,5 @@ form.addEventListener("submit", function(event){
     };
     localStorage.setItem("user",JSON.stringify(user));
     alert("Registeration Successful")
-    window.location.href = "/login/login.html";
+    window.location.href = "login/login.html";
 });

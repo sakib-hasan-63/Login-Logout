@@ -7,11 +7,11 @@ if(isLoggedIn !== "true"){
 }
 
 const welcomeText = document.getElementById("welcomeText");
-welcomeText.innerText = "Welcome"+ user.name;
+welcomeText.innerText = "Welcome "+ user.name;
 
 const logoutBtn = document.getElementById("logoutBtn");
 logoutBtn.addEventListener("click",function(){
     localStorage.removeItem("isLoggedIn");
     alert("Logout Successful");
-    window.location.href="/login/login.html"
+    window.location.href="login/login.html"
 });
