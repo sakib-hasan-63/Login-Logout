@@ -14,7 +14,7 @@ loginForm.addEventListener("submit",function(event){
     if(email === user.email && password === user.password){
         alert("Login Successful");
         localStorage.setItem("isLoggedIn","true");
-        window.location.href="home/home.html";
+        window.location.href="Home/home.html";
     }
     else{
         alert("Invalid Email and Password");
